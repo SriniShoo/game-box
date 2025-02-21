@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>GameBox Collection</title>
+  <link rel="stylesheet" href="assets/css/common.css">
+  <link rel="manifest" href="manifest.json">
+</head>
+<body>
+  <!-- Global Header with Hamburger Menu -->
+  <header class="header">
+    <div class="header-title">GameBox</div>
+    <div class="hamburger-menu">
+      <button id="hamburgerBtn" class="hamburger-btn">&#9776;</button>
+      <div id="dropdownMenu" class="dropdown-menu">
+        <select id="voiceSelect" class="voice-select"></select>
+        <button id="muteBtn" class="mute-btn">Mute</button>
+      </div>
+    </div>
+  </header>
+  <div class="container">
+    <h1>Discover Your Favorite Games</h1>
+    <div class="games-grid">
+      <a href="pages/tambola.html" class="game-card">
+        <div class="game-icon">🎲</div>
+        <div class="game-title">Tambola</div>
+        <div class="game-description">Classic number calling game with voice announcements.</div>
+      </a>
+      <a href="pages/tictactoe.html" class="game-card">
+        <div class="game-icon">⭕</div>
+        <div class="game-title">Tic Tac Toe</div>
+        <div class="game-description">Play the classic game of X's and O's.</div>
+      </a>
+    </div>
+  </div>
+  <script src="assets/js/header.js"></script>
+  <script src="assets/js/common.js"></script>
+</body>
+</html>
