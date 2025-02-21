@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Tambola Game</title>
+  <link rel="manifest" href="../manifest.json">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <link rel="apple-touch-icon" href="../assets/icons/icon-192.png">
+  <meta name="theme-color" content="#007bff">
+  <link rel="stylesheet" href="../assets/css/common.css">
+  <link rel="stylesheet" href="../assets/css/tambola.css">
+</head>
+<body>
+  <!-- Global Header with Hamburger Menu -->
+  <header class="header">
+    <a href="../index.html" class="back-btn">← Back</a>
+    <div class="header-title">Tambola</div>
+    <div class="hamburger-menu">
+      <button id="hamburgerBtn" class="hamburger-btn">&#9776;</button>
+      <div id="dropdownMenu" class="dropdown-menu">
+        <select id="voiceSelect" class="voice-select"></select>
+        <button id="muteBtn" class="mute-btn">Mute</button>
+      </div>
+    </div>
+  </header>
+  <div id="gameContainer" class="container">
+    <h1>Tambola Game</h1>
+    <div id="recentNumbers"></div>
+    <div id="numberGrid"></div>
+    <div id="controls">
+      <button id="nextBtn" class="btn">Draw Next Number</button>
+      <button id="restartBtn" class="btn" title="Restart Game">↻</button>
+    </div>
+  </div>
+  <script src="../assets/js/tambola.js"></script>
+  <script src="../assets/js/header.js"></script>
+  <script src="../assets/js/common.js"></script>
+</body>
+</html>
