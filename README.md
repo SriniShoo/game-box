@@ -1,2 +1,2 @@
 # game-box
-Easy-to-play offline games
+**GameBox** - Easy-to-play offline games
