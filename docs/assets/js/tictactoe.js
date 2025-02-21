@@ -98,7 +98,7 @@ function showWinnerPopup(message) {
     <h2>${message}</h2>
     <div class="popup-buttons">
       <button class="btn" onclick="restartGame()">Play Again</button>
-      <a href="/index.html" class="btn">Back to Home</a>
+      <a href="../index.html" class="btn">Back to Home</a>
     </div>
   `;
   document.body.appendChild(overlay);
